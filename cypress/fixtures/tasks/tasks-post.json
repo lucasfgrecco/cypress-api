@@ -1,0 +1,23 @@
+{
+	"create": {
+		"user": {
+			"name": "usuario task",
+			"email": "usuariotask@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "tarefe teste",
+			"tags": ["ouro", "prata"]
+		}
+	},
+	"dup": {
+		"user": {
+			"name": "usuario task duplicada",
+			"email": "usuariotaskduplicada@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "tarefa duplicada"
+		}
+	}
+}

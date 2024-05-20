@@ -1,0 +1,40 @@
+{
+	"list": {
+		"user": {
+			"name": "usuario task get",
+			"email": "usuariotaskget@exemple.com",
+			"password": "9876989"
+		},
+		"tasks": [
+			{
+				"name": "taref4 get teste 1",
+				"tags": ["abc", "def"]
+			},
+			{
+				"name": "taref4 get teste 2",
+				"tags": ["ghy", "pix"]
+			}
+		]
+	},
+	"unique": {
+		"user": {
+			"name": "usuario task unique",
+			"email": "usuariotaskunique@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "tarefa unica",
+			"tags": ["abce", "defge"]
+		}
+	},
+	"not_found": {
+		"user": {
+			"name": "usuario not found",
+			"email": "usuarionotfound@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "tarefa not found"
+		}
+	}
+}

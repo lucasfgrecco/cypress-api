@@ -1,0 +1,31 @@
+{
+    "login":{
+        "name": "Lucas Grecco 2",
+	    "email": "lucasg2@exemple.com",
+		"password": "123456"
+    },
+    "inv_pass":
+    {
+        "email": "lucasg@exemple.com",
+        "password": "123456965"
+    },
+    "email_404":{
+        "email": "404@exemple.com",
+     	"password": "1234569"
+    },
+    "create":{
+        "name": "Lucas Grecco",
+        "email": "lucasg@exemple.com",
+        "password": "123456"
+    },
+    "duplicate_email":{
+        "name": "Lucas Grecco 3",
+        "email": "lucasg3@exemple.com",
+        "password": "123456"
+    },
+    "required":{
+        "name": "Margot Robbie",
+        "email": "margot@gmail.com",
+        "password": "pwd342"
+    }
+}

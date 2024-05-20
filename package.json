@@ -1,0 +1,25 @@
+{
+	"name": "mark85-cypress-api",
+	"version": "1.0.0",
+	"description": "projeto de teste de api do mark 85",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx cypress run"
+	},
+	"keywords": [
+		"cypress",
+		"api"
+	],
+	"author": "lucas grecco",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^13.9.0",
+		"dotenv": "^16.4.5",
+		"mongodb": "^6.6.1"
+	},
+	"dependencies": {
+		"-": "^0.0.1",
+		"cypress-plugin-api": "^2.11.1",
+		"D": "^1.0.0"
+	}
+}

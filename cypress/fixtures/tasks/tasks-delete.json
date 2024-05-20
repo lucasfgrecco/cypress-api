@@ -1,0 +1,24 @@
+{
+	"remove": {
+		"user": {
+			"name": "usuario task delete",
+			"email": "usuariotaskdelete@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "delete task 1",
+			"tags": ["abc", "def"]
+		}
+	},
+
+	"not_found": {
+		"user": {
+			"name": "usuario not found delete",
+			"email": "usuarionotfounddelete@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "tarefa not found delete"
+		}
+	}
+}

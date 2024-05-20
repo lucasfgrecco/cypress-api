@@ -1,0 +1,24 @@
+{
+	"update": {
+		"user": {
+			"name": "usuario task update",
+			"email": "usuariotaskupdate@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "update task 1",
+			"tags": ["abc", "def"]
+		}
+	},
+
+	"not_found": {
+		"user": {
+			"name": "usuario not found update",
+			"email": "usuarionotfoundupdate@exemple.com",
+			"password": "9876989"
+		},
+		"task": {
+			"name": "tarefa not found update"
+		}
+	}
+}
