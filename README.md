@@ -20,6 +20,13 @@ cd seu-repositorio
 npm install
 ```
 
+## Execução dos testes(Demo):
+
+![image](https://github.com/lucasfgrecco/cypress-api/assets/36965935/2103883d-9d79-4898-b6e5-e798fc025e4f)  
+
+**Demo: Rodando na interface do Cypress**  
+![mark85-cypress-api - Google Chrome 2024-05-20 14-55-01](https://github.com/lucasfgrecco/cypress-api/assets/36965935/a201555f-cfa7-47a3-a372-2e35c3913be9)
+
 # Estrutura dos Testes em BDD
 
 ## Feature: Login de usuário
@@ -40,7 +47,7 @@ npm install
 
   **Cenário: Usuário cria uma conta com email e senha válidos**    
     Dado que o usuário quer criar uma conta com email "novo.usuario@example.com" e senha "novaSenha123"  
-    Quando ele envia uma requisição POST para "/api/usuarios" com os dados  
+    Quando ele envia uma requisição POST para "/users" com os dados  
     Então ele deve receber um status code 201  
     E a resposta deve conter o ID do novo usuário  
 
@@ -62,7 +69,7 @@ npm install
 **Cenário: Usuário cria uma nova tarefa com nome e tags**    
     Dado que o usuário está autenticado  
     E ele possui um token de autenticação válido  
- Quando ele envia uma requisição POST para "/api/tarefas" com os dados da tarefa
+ Quando ele envia uma requisição POST para "/tasks" com os dados da tarefa
    | nome          | tags                  |
    |---------------|-----------------------|
    | "Minha Tarefa"| ["tag1", "tag2", "tag3"] |  
